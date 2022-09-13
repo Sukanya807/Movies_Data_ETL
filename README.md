@@ -16,15 +16,21 @@ The Extract, Transform, Load (ETL) process has been divided into 4 parts-
 - The non-null box office data is converted to string values using the lambda and join functions.
 - Transformation of the Wikipedia data by cleaning the box office, budget, release date and running time columns.
 
+![](images/clean_wiki.png)
+
 #### Deliverable 3: ETL_clean_kaggle_data
 - Cleaned the Kaggle metadata.
 - The Wikipedia and Kaggle dataframes were merged and cleaned.
 - Extracted and cleaned the MovieLens Ratings Data.
 - Finally merged the ratings data with the Wikipedia and Kaggle metadata.
 
+![](images/clean_kaggle.png)
+
 #### Deliverable 4: ETL_create_database
 - Uploaded the clean and merged data on PostgreSQL.
 - Existing data in Movies table replaced by current data in PostgreSQL.
+
+![](images/postgres.png)
 
 ## Software Used
 - Python
